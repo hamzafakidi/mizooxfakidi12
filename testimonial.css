@@ -1,0 +1,68 @@
+/* تنسيق بطاقة كلمة الشخص */
+body{
+    background-image: url(img/book.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.testimonial-card {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+    background-image: url(img/ianim.jpg);
+    background-size: cover;
+  }
+  .person-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-info h2 {
+    font-size: 22px;
+    color: #333;
+    margin: 10px 0;
+    background-color: rgb(86, 182, 42);
+    border-radius: 20px;
+  }
+  
+  .testimonial-info p {
+    font-size: 20px;
+    color: white;
+    line-height: 1.6;
+    background-color: #0bd8ac;
+  }
+  strong{
+    color: rgb(47, 54, 151);
+    font-size: 20px;
+  }
+.omar  {
+    color: red;
+    text-decoration: none;
+}
+.khadija{
+    color: rgb(247, 0, 255);
+    text-decoration: none;
+}
+.back{
+    font-size: 30px;
+    align-items: center;
+    color: rgb(255, 0, 0);
+}
+.back:hover{
+    background-color: gold;
+    transition: 1s;
+    border-radius: 20%;
+}
+ .icons a{
+font-size: 48px;
+}

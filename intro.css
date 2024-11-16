@@ -1,0 +1,221 @@
+
+body{
+  background-color: antiquewhite;
+  background-size: cover;
+  
+}
+
+.author-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.author-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.author-info h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.author-info p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}
+  /* قسم المساهمين */
+  .contributors {
+    padding: 20px;
+    margin: 20px;
+    background-color: #e8e8e8;
+    border-radius: 8px;
+  }
+  
+  .contributors h2 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .contributors p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .contributors ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .contributors li {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* زر الانتقال */
+  .navigate-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .button:hover {
+    background-color: #33ff00;
+    transition: 1s;
+  }
+  
+  /* تنسيق النص الافتتاحي */
+.intro-text {
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 7px 9px rgba(0, 255, 42, 0.1);
+  font-size: 20px;
+  color: #ff0000;
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+h2{
+  color: rgb(0, 68, 255);
+}
+
+ .ff a {
+  text-align: center;
+  color: rgb(0, 240, 248);
+  height: 10%;
+  font-size: 23px;
+}
+.ff a:hover{
+  color: #33ff00;
+}
+.contributors h2{
+  color: red;
+  text-align: center;
+  background-color: rgb(0, 162, 255);
+  border-radius: 185px;
+}
+.contributors p{
+  text-align: center;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+}
+strong{
+  color: black;
+}
+a{
+  color: #000000;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+  transition: 1s;
+  background-color: #ff00c8;
+  border-radius: 16px;
+}
+
+
+
+
+
+
+
+/* From Uiverse.io by mrhyddenn */ 
+button {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(61, 106, 255);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+button:hover {
+  background: rgb(61, 106, 255);
+  box-shadow: 0 0 30px 5px rgba(126, 236, 0, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+button:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+button::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+button:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+.icons li{
+  font-size: 25px;
+  color: rgb(174, 0, 255);
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+    display: block;
+}
+h1{
+    text-align: center;
+    color: darkred;
+}
+p{
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    
+}

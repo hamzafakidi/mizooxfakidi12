@@ -1,0 +1,87 @@
+/* إعدادات عامة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* رأس الصفحة */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* قسم المكتبة */
+  .library {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  /* لكل قصة */
+  .story {
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s;
+    background-color: #afa462;
+    border-radius: 8px;
+  }
+  
+  .story:hover {
+    transform: scale(1.05);
+  }
+  
+  /* صورة الغلاف */
+  .story img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .story h2 {
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  /* شريط التنقل */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  text-align: end;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #ffd700;
+}
+#searchBar {
+  width: 80%;
+  padding: 10px;
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+@media screen and (max-width: 480px) {
+  .story-card {
+    width: 90%;  /* البطاقة ستأخذ العرض الكامل على الهواتف الصغيرة جدًا */
+    margin-bottom: 20px;
+  }
+
+  #searchBar {
+    width: 100%;
+    font-size: 12px;
+  }
+}

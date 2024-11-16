@@ -1,0 +1,109 @@
+/* نموذج تسجيل الدخول */
+/* مركزية البطاقة */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ارتفاع الشاشة بالكامل */
+    background-image: url(img/colleg.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+  }
+  
+  /* نموذج تسجيل الدخول */
+  .login-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+.login-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .login-form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #851c1c;
+    transition: 1s;
+  }
+  
+  /* رسالة الخطأ */
+.error-message {
+    color: rgb(0, 60, 255);
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  h1{
+    display: block;
+    justify-content: center;
+    color: red;
+  }
+
+
+  /* الدائرة المتحركة */
+.loader {
+    border: 4px solid #f3f3f3; /* لون الخلفية */
+    border-top: 4px solid #333; /* لون الحد العلوي */
+    border-radius: 50%; /* تجعل الشكل دائريًا */
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 10px auto; /* وضعها في المنتصف */
+  }
+  
+  /* حركة الدوران */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .icons i{
+    font-size: 30px;
+    margin-top: 19px;
+    justify-content: space-between;
+    margin: 20px;
+    padding-left: 19px;
+  }
